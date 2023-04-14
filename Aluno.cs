@@ -10,7 +10,7 @@ namespace Matricula
     {
         public string Nome { get; set; }
         public string Email { get; set; }
-        public bool status { get; set; }
+        public bool Status { get; set; }
         public string Curso { get; set; }
 
         private int matricula;
@@ -29,7 +29,7 @@ namespace Matricula
                 } 
                 else
                 {
-                    matricula = value;
+                    this.matricula = value;
                 }
             }
         }

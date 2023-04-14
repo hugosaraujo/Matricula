@@ -1,5 +1,7 @@
 ﻿using Matricula;
 
 Aluno aluno = new Aluno();
-aluno.Matricula = -0909081092;
+aluno.Matricula = 9;
 Console.WriteLine(aluno.Matricula);
+
+Console.ReadLine();
